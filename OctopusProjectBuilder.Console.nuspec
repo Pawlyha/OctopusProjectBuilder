@@ -20,8 +20,7 @@
     <language>en-US</language>
   </metadata>
   <files>
-    <file src="OctopusProjectBuilder.Console\bin\Release\*.dll" target="" />
-    <file src="OctopusProjectBuilder.Console\bin\Release\*.exe" target="" />
+    <file src="publish\OctopusProjectBuilder.Console\**" target="" exclude="**\*.pdb" />
     <file src="LICENSE" target="\LICENSE" />
     <file src="LICENSE-YamlDotNet" target="\LICENSE-YamlDotNet" />
     <file src="Manual.md" target="" />
